@@ -26,5 +26,33 @@
     text-align: center;
     background-color: var(--secondary);
     font-size: 25px;
+  }
+
+  main {
+      display: flex;
+      height: 3000px;
+      width: 100%;
+      /* background-color: aqua; */
+      justify-content: center;
+      flex: wrap;
+  }
+
+  #about {
+      display: flex;
+      justify-content: center;
+      height: 800px;
+      width: 100%;
+  }
   
-  
+  .section {
+      display: flex;
+      justify-content: center;
+      border: black 2px solid;
+      border-radius: 25px;
+      width: 700px;
+  }
+
+  #headshot {
+      height: 200px;
+      width:100px;
+  }
