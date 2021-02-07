@@ -30,10 +30,11 @@
 
   main {
       display: flex;
-      height: 3000px;
+      height: 100%;
       width: 100%;
       /* background-color: aqua; */
       justify-content: center;
+      flex-direction: column;
       flex: wrap;
   }
 
@@ -49,10 +50,31 @@
       justify-content: center;
       border: black 2px solid;
       border-radius: 25px;
-      width: 700px;
+      width: 1000px;
+      margin: 100px;
   }
 
   #headshot {
       height: 200px;
-      width:100px;
+      width:150px;
+      border-radius: 25px;
+  }
+
+  #work {
+    display: flex;
+      justify-content: center;
+      height: 800px;
+      width: 100%;
+  }
+
+  #surf-report {
+    height: 300px;
+    width: 400px:
+  }
+
+  #contact {
+    display: flex;
+      justify-content: center;
+      height: 800px;
+      width: 100%;
   }
