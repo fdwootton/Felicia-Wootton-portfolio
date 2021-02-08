@@ -88,3 +88,16 @@
     flex: 1 1 auto;
     border-radius: 25px;
   }
+
+  .contact-wrapper {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+
+  .contact-option {
+    font-size: 15px;
+    padding: 10px;
+  }
