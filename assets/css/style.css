@@ -21,7 +21,8 @@
   }
 
   header {
-    height:250px;
+    position: relative;
+    height:400px;
     width:100%;
     text-align: center;
     background-color: var(--secondary);
@@ -36,45 +37,4 @@
       justify-content: center;
       flex-direction: column;
       flex: wrap;
-  }
-
-  #about {
-      display: flex;
-      justify-content: center;
-      height: 800px;
-      width: 100%;
-  }
-  
-  .section {
-      display: flex;
-      justify-content: center;
-      border: black 0.5px solid;
-      border-radius: 25px;
-      width: 1000px;
-      margin: 100px;
-  }
-
-  #headshot {
-      height: 200px;
-      width:150px;
-      border-radius: 25px;
-  }
-
-  #work {
-    display: flex;
-      justify-content: center;
-      height: 800px;
-      width: 100%;
-  }
-
-  #surf-report {
-    height: 300px;
-    width: 400px:
-  }
-
-  #contact {
-    display: flex;
-      justify-content: center;
-      height: 800px;
-      width: 100%;
   }
