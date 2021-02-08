@@ -29,6 +29,12 @@
     font-size: 25px;
   }
 
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
   main {
       display: flex;
       height: 100%;
@@ -37,4 +43,32 @@
       justify-content: center;
       flex-direction: column;
       flex: wrap;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .large-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+  }
+
+  .img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .small-img {
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    flex: 1 1 auto;
+    border-radius: 25px;
   }
