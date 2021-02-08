@@ -34,6 +34,10 @@
     justify-content: space-evenly;
   }
 
+  a {
+    text-decoration-line: none;
+  }
+
 
   main {
       display: flex;
