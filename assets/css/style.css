@@ -49,6 +49,13 @@
     text-align: center;
   }
 
+  .about-wrapper {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+  }
+
   .large-img {
     display: block;
     margin-left: auto;
