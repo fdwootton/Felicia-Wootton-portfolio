@@ -21,12 +21,16 @@
   }
 
   header {
-    position: relative;
+    /* position: relative; */
     height:400px;
     width:100%;
     text-align: center;
-    background-color: var(--secondary);
+    /* background-color: var(--secondary); */
     font-size: 25px;
+  }
+
+  #job-title {
+    padding: 5px;
   }
 
   nav {
@@ -55,6 +59,10 @@
     text-align: center;
   }
 
+  h2 {
+    text-align: center;
+  }
+
   .about-wrapper {
     display: flex;
     height: 300px;
@@ -74,7 +82,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 61%;
-    border: 4px solid blue;
+    border: 4px solid black;
     border-radius: 25px;
   }
 
