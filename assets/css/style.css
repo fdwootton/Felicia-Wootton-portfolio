@@ -32,6 +32,8 @@
   nav {
     display: flex;
     justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
   }
 
   a {
@@ -56,7 +58,7 @@
   .about-wrapper {
     display: flex;
     height: 300px;
-    width: 1000px;
+    width: 800px;
     margin: auto;
   }
 
@@ -68,9 +70,11 @@
 
   .large-img {
     display: block;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 61%;
+    border: 4px solid blue;
     border-radius: 25px;
   }
 
@@ -78,15 +82,17 @@
     display: flex;
     flex-wrap: wrap;
     height: 600px;
-    width: 100%;
-    justify-content: center;
+    width: 65%;
+    margin: auto;
+    justify-content: space-evenly;
   }
 
   .small-img {
     height: 300px;
-    width: 500px;
+    width: 300px;
     padding: 10px;
     flex: 1 1 auto;
+    border: 4px solid blue;
     border-radius: 25px;
   }
 
