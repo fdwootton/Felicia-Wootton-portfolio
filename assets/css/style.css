@@ -88,6 +88,16 @@
     /* border-radius: 25px;; */
   }
 
+  #work-header {
+    height: 100px;
+    width: 400px;
+    background: white;
+    margin: auto;
+    font-size: 25px;
+    border: black 4px solid;
+    border-radius: 10px;
+  }
+
   /* .large-img {
     display: block;
     height: 500px;
