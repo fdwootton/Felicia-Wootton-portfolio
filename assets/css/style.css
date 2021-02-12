@@ -19,31 +19,51 @@
     color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
-    background-image: url(.././images/hexagon-background.png);
+    /* background-image: linear-gradient(90deg, #848788, #433a4e); */
+    /* background-image: url(.././images/grey-background.jpg); */
   }
+
 
   header {
     /* position: relative; */
-    height:400px;
+    height:450px;
     width:100%;
     text-align: center;
-    /* background-color: var(--secondary); */
     font-size: 30px;
+    /* background-color: var(--secondary); */
     /* background-image: url(.././images/hexagon-background.png); */
+    background-image: url(.././images/dark-wood.jpg);
+    color:white;
   }
 
   h1 {
     text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
     margin-top: 100px;
     margin-bottom: 0;
     margin-left: 500px;
     margin-right: 500px;
-    background-color: white;
+    /* background-color: white; */
   }
 
+  .title-and-headshot-wrapper {
+    display: flex;
+    /* background-color: white; */
+    height: 210px;
+    width: 584px;
+    margin: auto;
+    justify-content: center;
+  }
 
   #job-title {
     padding: 5px;
+  }
+
+  #header-photo {
+    height: 250px;
+    width: 200px;
+    border: white 2px solid;
   }
 
   nav {
@@ -53,6 +73,10 @@
     margin: auto;
     margin-top: 75px;
     font-size: 22px;
+  }
+
+  .page-nav {
+    color: rgb(232, 119, 255)
   }
 
   a {
@@ -82,20 +106,15 @@
     align-items: center;
   }
 
-  #headshot {
-    height: 200px;
-    width: 150px;
-    /* border-radius: 25px;; */
+  #work {
+    background-image: url(.././images/dark-wood.jpg);
+    width: 100%;
+    color: white;
   }
 
   #work-header {
-    height: 100px;
-    width: 400px;
-    background: white;
     margin: auto;
     font-size: 25px;
-    border: black 4px solid;
-    border-radius: 10px;
   }
 
   /* .large-img {
@@ -132,12 +151,11 @@
     width: 100%;
     padding: 10px;
     flex: 1 1 auto;
-    border: 4px solid black;
-    border-radius: 15px;
+    border: 6px solid white;
   }
 
   .large-project-link:hover {
-    opacity: 80%;
+    opacity: 50%;
   }
   
   .img-wrapper {
@@ -165,7 +183,7 @@
   }
 
   .project-link:hover {
-    opacity: 80%;
+    opacity: 50%;
   }
 
   .small-img {
@@ -173,8 +191,7 @@
     width: 300px;
     padding: 10px;
     flex: 1 1 auto;
-    border: 4px solid black;
-    border-radius: 25px;
+    border: 6px solid white;
   }
 
   .small-img:hover {
@@ -192,4 +209,11 @@
   .contact-option {
     font-size: 18px;
     padding: 10px;
+  }
+
+
+  footer {
+    background-image: url(./../images/dark-wood.jpg);
+    color: white;
+    text-align: center;
   }
