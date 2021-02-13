@@ -12,6 +12,7 @@
   }
 
 
+  /* Header */
   .header-wrapper {
     display:flex;
     flex-direction: column;
@@ -23,6 +24,8 @@
     color:white;
   }
 
+
+  /* Felicia Wootton */
   h1 {
     text-align: center;
     font-size: 65px;
@@ -30,7 +33,8 @@
     letter-spacing: 10px;
   }
 
-  .title-and-headshot-wrapper {
+
+  #title-and-headshot-wrapper {
     display: flex;
     height: 240px;
     width: 600px;
@@ -38,18 +42,24 @@
     justify-content:center;
   }
 
+
+  /* Full Stack Developer */
   #job-title {
     padding: 10px;
     margin-top: 35px;
     margin-right: 10px;
   }
 
+
+  /* Headshot */
   #header-photo {
     height: 250px;
     width: 200px;
     border: white 2px solid;
   }
 
+
+  /* Navigation wrapper */
   nav {
     display: flex;
     justify-content: space-between;
@@ -59,6 +69,8 @@
     font-size: 22px;
   }
 
+
+  /* Individual navigation elements */
   .page-nav {
     color: rgb(232, 119, 255);
   }
@@ -67,25 +79,29 @@
     color: rgb(250, 151, 205);
   }
 
+  /* Removes underline from nav elements */
   a {
     text-decoration-line: none;
   }
 
 
+  /* Main content wrapper */
   main {
       display: flex;
       height: 100%;
       width: 100%;
-      /* background-color: aqua; */
       justify-content: center;
       flex-direction: column;
       flex: wrap;
   }
 
+
+  /* Aligns "ABOUT" and "CONTACT" headings to the center */
   h2 {
     text-align:center;
   }
 
+  /* About section */
   #about {
     display: flex;
     flex-direction: column;
@@ -101,16 +117,19 @@
     font-weight: bolder;
   }
 
-  .about-wrapper {
+  #about-content-wrapper {
     display: flex;
     margin: auto;
     align-items: center;
   }
 
+  /* About me paragraph */
   p {
     font-size: 18px;
   }
 
+
+  /* Work section */
   #work {
     display: flex;
     flex-direction: column;
@@ -126,7 +145,9 @@
     font-size: 30px;
   }
 
-  .large-project-wrapper {
+
+  /* Large project */
+  #large-project-wrapper {
     display: block;
     height: 500px;
     margin-left: auto;
@@ -134,7 +155,8 @@
     width: 65%;
   }
 
-  .large-project-link {
+
+  #large-project-link {
     display: block;
     background-image: url(.././images/interface.png.png);
     background-size: cover;
@@ -149,20 +171,23 @@
     border: 6px solid white;
   }
 
-  .large-project-link:hover {
+
+  #large-project-link:hover {
     opacity: 50%;
   }
-  
-  .img-wrapper {
+
+
+  /* Small projects */
+  #small-project-wrapper {
     display: flex;
     flex-wrap: wrap;
-    /* height: 400px; */
     width: 66%;
     margin: auto;
     margin-top: 10px;
   }
 
-  .project-link{
+
+  .small-project-link{
     display: block;
     background-image: url(.././images/multiple-interface.png);
     background-size: cover;
@@ -176,10 +201,11 @@
     border: 4px solid white;
   }
 
-  .project-link:hover {
+  .small-project-link:hover {
     opacity: 50%;
   }
 
+  /* Contact section */
   #contact {
     display: flex;
     flex-direction: column;
@@ -187,12 +213,14 @@
     width: 100%;
   }
 
+
   #contact-header {
     font-size: 45px;
     font-weight: bolder;
   }
 
-  .contact-wrapper {
+
+  #contact-content-wrapper {
     display: flex;
     flex-direction: column;
     width: 600px;
@@ -201,13 +229,15 @@
     margin-bottom: 100px;
   }
 
+
   .contact-option {
     font-size: 18px;
     padding: 10px;
     text-align: center;
   }
+  
 
-
+  /* Adjusted navigation bar as screen size decreases */
   @media screen and (max-width: 900px) {
     nav {
       width: 100%;
