@@ -182,3 +182,11 @@
     font-size: 18px;
     padding: 10px;
   }
+
+  @media screen and (min-width: 300px) {
+    #work {
+      height: 1400px;
+    }
+  }
+
+
