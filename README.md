@@ -6,4 +6,4 @@ Welcome to my personal portfolio! My portfolio contains all of my projects that 
 [Felicia Wootton - Portfolio](https://fdwootton.github.io/Felicia-Wootton-portfolio/)
 
 
-![](./assets/images/portfolio-screenshot.png)
+![](./assets/images/screenshot.png)
