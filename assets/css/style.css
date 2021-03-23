@@ -146,12 +146,12 @@ p {
 
 .large-project-link {
   display: block;
-  background-image: url(.././images/interface.png.png);
+  background-image: url(.././images/beer-dark-background2.jpg);
   background-size: cover;
   background-position: center;
-  color: black;
+  color: white;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 35px;
   height: 100%;
   width: 100%;
   padding: 10px;
@@ -188,6 +188,32 @@ p {
 
 .project-link:hover {
   opacity: 50%;
+}
+
+#weather-app {
+  background-image: url(.././images/slightly-cloudy.png);
+  font-weight: bolder;
+  background-size: cover;
+  background-position: center;
+}
+
+#scheduler-app {
+  background-image: url(.././images/hand-clock.png);
+  color:black;
+  font-weight: bolder;
+  background-size: cover;
+  background-position: center;
+}
+
+#github {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#github-link {
+  text-decoration: underline;
+  color: rgb(232, 119, 255);
 }
 
 /* Contact section */
