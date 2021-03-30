@@ -206,14 +206,14 @@ p {
 }
 
 #github {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   margin-top: 30px;
 }
 
 #github-link {
   text-decoration: underline;
-  color: rgb(232, 119, 255);
+  /* color: rgb(232, 119, 255); */
 }
 
 /* Contact section */
@@ -239,8 +239,8 @@ p {
 }
 
 .contact-option {
-  font-size: 18px;
-  padding: 10px;
+  font-size: 25px;
+  padding: 5px;
   text-align: center;
 }
 
