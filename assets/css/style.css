@@ -205,6 +205,27 @@ p {
   background-position: center;
 }
 
+#doggy-dating-app {
+  background-image: url(.././images/lassie.jpg);
+  font-weight: bolder;
+  background-size: cover;
+  background-position: center;
+}
+
+#note-taker-app {
+  background-image: url(.././images/fountain-pen-1851096_640.jpg);
+  font-weight: bolder;
+  background-size: cover;
+  background-position: center;
+}
+
+#coding-quiz-app {
+  background-image: url(.././images/quiz-2137664_640.jpg);
+  font-weight: bolder;
+  background-size: cover;
+  background-position: center;
+}
+
 #github {
   font-size: 25px;
   text-align: center;
